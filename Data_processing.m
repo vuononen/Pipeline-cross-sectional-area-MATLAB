@@ -78,3 +78,5 @@ for i = 1:29
         results.group2_diff_area75(i,1) = results.diff_area75(i,1);
     end
 end
+
+save('CSA_results.mat','results')
